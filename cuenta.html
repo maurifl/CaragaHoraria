@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,700,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+        <script src="js/validar.js"></script>
+
+        <title>Crear Cuenta</title>
+    </head>
+    
+    <body>
+        <!--<header>-->
+            <video class="video" autoplay="autoplay" loop="loop" id="video_background" preload="auto" volume="50">
+                <source src="img/Clouds.mp4" type="video/mp4" />
+            </video>
+            <div class="login-box login-box-cuenta">               
+                <img class="avatar" src="img/logo.png" alt="Imagen de Logo">
+                <h1>Crea una Cuenta</h1>
+        <!--<header>-->
+                <form action="registro.php" method="POST" class="registro" onsubmit="return validar();">
+                    <!--dni usuario-->
+                        <label for="username">DNI usuario</label>
+                        <input type="text" id="dni" placeholder="Ingrese dni de usuario" required>
+                    <!--password-->
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="contraseña" placeholder="Ingrese su contraseña" required>
+                    <!--nombre-->
+                        <label for="username">Nombre y Apellido</label>
+                        <input type="text" id="nombre" placeholder="Ingrese nombre y apellido" required>
+                    <!--telefono-->
+                        <label for="username">Teléfono</label>
+                        <input type="text" id="telefono" placeholder="Ingrese su teléfono" required>
+                    <!--email-->
+                        <label for="username">E-Mail</label>
+                        <input type="email" id="mail" placeholder="Ingrese su email. @osde.com.ar" required>
+                    <!--botón-->
+                        <input type="submit" value="Nueva Cuenta">
+
+                    <a href="index.html">Home</a>
+                </form>
+            </div>
+    </body>
+</html>

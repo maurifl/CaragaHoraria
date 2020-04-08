@@ -1,0 +1,260 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.login-box{
+    width: 320px;
+    height: 420px;
+    background-color: rgba(0,0,0,0.7);
+    color: #ffffff;
+    top: 17%;
+    left: 40%;
+    position: absolute;
+    transform: translateX(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 50px;
+}
+
+.login-box .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 37%;
+}
+
+.login-box  h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="email"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #2681c4;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.login-box a:hover{
+    color: #ffffff;
+}
+
+body .video { 
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;    
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+    z-index: -100;
+    background-size: cover;
+  }
+
+  /************************************ CUENTA ************************************/
+
+.login-box-cuenta{
+    width: 400px;
+    height: 630px;
+    background-color: rgba(0,0,0,0.7);
+    color: #ffffff;
+    top: 8%;
+    left: 37%;
+    position: absolute;
+    transform: translateX(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+    border-radius: 50px;
+}
+
+.login-box-cuenta .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 38%;
+}
+
+  /************************************ ENTRADA DE DATOS ************************************/
+
+.mensaje{
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+.login-box .mensaje-ppal{
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin: 0;
+    padding: 0 0 10px;
+}
+.login-box-datos{
+    width: 40%;
+    height: 805%;
+    background-color: rgba(0,0,0,0.7);
+    color: #ffffff;
+    top: 8.5%;
+    left: 30%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 30px;
+}
+
+.login-box-datos .avatar{
+
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.login-box-datos .horario{
+    display: inline-block;
+    width: 20%;
+}
+
+ /************************************ CONTACTENOS ************************************/
+
+ textarea{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 100px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+ }
+ 
+ .login-box-contactenos{
+    width: 85%;
+    max-width: 650px;
+    height: 82%;
+    padding: 5px 35px;
+    margin-top: -29px;
+    padding-bottom: 30px;
+    background-color: rgba(0,0,0,0.7);
+    color: #ffffff;
+    top: 17%;
+    left: 28%;
+    position: absolute;
+    transform: translateX(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 50px;
+}
+
+.login-box-contactenos .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 42.5%;
+}
+
+.login-box-contactenos  h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box-contactenos label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box-contactenos input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box-contactenos input[type="text"],
+.login-box-contactenos input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.login-box-contactenos input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #2681c4;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box-contactenos a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.login-box-contactenos a:hover{
+    color: #ffffff;
+}

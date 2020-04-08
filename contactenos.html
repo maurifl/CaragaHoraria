@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+            <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,700,900&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/animate.css">
+
+            <script src="js/validaIndex.js"></script>
+        <title>Prueba SendGrid</title>
+    </head>
+    <body>
+        <!--<header>-->
+        <video class="video" autoplay="autoplay" loop="loop" id="video_background" preload="auto" volume="50">
+            <source src="img/Clouds.mp4" type="video/mp4" />
+        </video>
+        <div class="login-box-contactenos">               
+            <img class="avatar" src="img/logo.png" alt="Imagen de Logo">
+            <!--</header>-->
+            <div class="contenedor">
+                <form action="registro.php" method="POST" class="registro" onsubmit="return validaContactenos();">
+                    <h1 class="form-title">Conactenos</h1>
+
+                    <label id="nombre" class="form-label">Nombre: </label>
+                    <input type="text" name="nombre" class="form-input" placeholder="Escriba su Nombre" required="required" autocomplete="off">
+
+                    <label id="mail" class="form-label">E-mail: </label>
+                    <input type="text" name="mail" class="form-input" placeholder="Escriba su E-Mail osde" required="required" autocomplete="off">
+
+                    <label id="mensaje" class="form-label">Mensaje</label>
+                    <textarea type="textarea" name="mensaje" class="form-textarea" placeholder="Escriba su mensaje" required="required" autocomplete="off"></textarea>
+                    <br><br>
+
+                    <input type="submit" class="btn-submit" value="Enviar">
+                </form>
+            </div>
+            <a href="index.html">Home</a>
+        </div>
+    </body>
+</html>
