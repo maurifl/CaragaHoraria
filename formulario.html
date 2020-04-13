@@ -19,9 +19,9 @@
         <div class="login-box login-box-datos">               
             <img class="avatar" src="img/logo.png" alt="Imagen de Logo">
             <h1>Entrada de Datos</h1>
-            <a class="mensaje-ppal">Horas a Imputar: 05:35</a>
+            <a class="mensaje-ppal">Horas a Imputar</a>
             <a class="mensaje">Debes imputar las horas trabajadas</a>
-            <form>
+            <form action="form.php">
                 <div class="opciones">
                     <form>
                         <fieldset>
@@ -30,9 +30,9 @@
                                 <legend class="tit">Horario</legend>
                             </section>
                             <section>
-                                <input class="horario" type="time">
+                                <input name="hora" class="horario" type="time">
                             </section>
-                            Comentario<input type="text" class="comentario1" />
+                            Comentario<input name="commit" type="text" class="comentario1" />
                         </fieldset>
                     </form>
                     <form>
@@ -276,7 +276,7 @@
                         </fieldset>
                     </form>
                 </div><br>
-                <input type="submit" value="Cargar Horas y Salir">
+                <input style="cursor: pointer;" type="submit" value="Cargar Horas y Salir">
                 <a href="index.html">Volver</a><br>
             </form>
         </div>

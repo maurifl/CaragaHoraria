@@ -73,6 +73,11 @@
     border-radius: 20px;
 }
 
+.login-box input[type="submit"]:hover{
+    background: #319fee;
+    color: #000000;
+}
+
 .login-box a{
     text-decoration: none;
     font-size: 12px;
@@ -258,3 +263,6 @@ body .video {
 .login-box-contactenos a:hover{
     color: #ffffff;
 }
+
+ /************************************ RELOJ ************************************/
+
