@@ -22,17 +22,14 @@
         </video>
         <div class="login-box">               
             <img class="avatar" src="img/logo.png" alt="Imagen de Logo">
-            <h1>Recupera Contraseña</h1>
+            <h1>Recupera Contraseña</h1><br><br><br>
         <!--<header>-->
-            <form action="registro.php" method="POST" class="registro" onsubmit="return validaRecupera();">
+            <form action="php/recupera.php" method="POST" class="registro" onsubmit="return validaRecupera();">
                 <!--username-->
                  <label for="username">E-mail</label>
-                <input type="email" name="email_contacto" placeholder="Ingrese su email. @osde.com.ar" id="mail" required="required" autocomplete="off"/>
-                <!--password-->
-                <label for="username">Nombre</label>
-                <input type="text" id="nombre" placeholder="Ingrese su Nombre" required autocomplete="off">
+                <input type="email" name="mailrecupera" placeholder="Ingrese su email. @osde.com.ar" id="mail" required="required" autocomplete="off"/>
 
-                <input style="cursor: pointer;" type="submit" value="Recupera">
+                <input style="cursor: pointer;" type="submit" value="Recupera"><br><br><br><br>
 
                 <a href="index.html">Home</a><br>
             </form>

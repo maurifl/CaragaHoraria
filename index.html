@@ -25,20 +25,19 @@
                 <img class="avatar" src="img/logo.png" alt="Imagen de Logo">
                 <h1>Iniciar Sesión</h1>
                 <!--</header>-->
-                <form action="login.php" method="POST" class="registro" onsubmit="return validaIndex();">
+                <form action="php/login.php" method="POST" class="registro" onsubmit="return validaIndex();">
                     <!--username-->
                     <label for="username">DNI</label>
                     <input type="text" name="dni" placeholder="Ingrese dni de usuario" required>
                     <!--password-->
                     <label for="password">Contraseña</label>
-                    <input type="password" name="contraseña" placeholder="Ingrese su contraseña" required>
+                    <input type="password" name="contraseña" placeholder="Ingrese su contraseña" required><br><br>
 
-                    <input style="cursor: pointer;" type="submit" value="Ingresar">
+                    <input style="cursor: pointer;" type="submit" value="Ingresar"><br><br>
 
-                    <a href="recupera.html">Recuperar Contraseña</a><br>
-                    
-                    <!--<a href="cuenta.html">Crea tu cuenta</a><br>-->                    
+                    <a href="recupera.html">Recuperar Contraseña</a>
                     <!--<a href="contactenos.html">email</a><br>-->
+                    <!--<a href="cuenta.html">Crea tu cuenta</a><br>-->
                     <!--<a href="formulario.html">formulario</a>-->
                 </form>
             </div>
